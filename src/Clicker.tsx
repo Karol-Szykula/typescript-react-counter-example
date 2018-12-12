@@ -20,6 +20,20 @@ export default class Clicker extends React.Component<ClickerProps, ClickerState>
 
     public render() {
 
-        return (<h1> Number of CLicks: {this.state.amountOfClicks}</h1>)
+        return (
+            <div>
+                <h1> Number of CLicks: {this.state.amountOfClicks}</h1>
+                <button
+
+                >
+                    +
+                </button>
+                <button
+
+                >
+                    -
+                </button>
+            </div>
+        )
     }
 }
